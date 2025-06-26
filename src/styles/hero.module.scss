@@ -1,0 +1,30 @@
+/* Hero Section Styles */
+.hero {
+  background-image: url(../../public//assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  padding: 150px 0 420px 0;
+  &Title {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #ffffff;
+  text-transform: uppercase;
+  height: 154px;
+  margin: 20px;
+  @media (max-width: 767px) {
+    font-size: 48px;
+
+    .heroImage {
+    height: 300px;
+  }
+    .heroTitle {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  }
+  }
+}

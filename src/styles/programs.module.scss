@@ -1,0 +1,62 @@
+.title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+  }
+.programs {
+  display: flex;
+  .eventsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .eventItem {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .timeBlock {
+    width: 129px;
+    height: 129px;
+    border-radius: 100%;
+    background-color: #FA992A;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 100%;
+      color: #FFFFFF;
+      text-align: center;
+      padding-top: 30px;
+    
+  }
+
+  .content {
+    flex: 1;
+    .eventTitle {
+      font-size: 16px;
+      font-weight: 700;
+      color: #000000;
+      margin: 0 0 0.5rem 0;
+    }
+    .eventDescription {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000000;
+      line-height: 100%;
+    }
+  }
+  /* Photos Styles */
+.photosRow {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-shrink: 0;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+}

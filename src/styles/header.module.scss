@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+/* Navigation Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #393844;
+  max-width: 100vw;
+  @media (max-width: 767px){
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+ 
+  @media (max-width: 767px){
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.navLink {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  &:hover {
+  color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+}
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.primaryButton, .secondaryButton {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 16px 24px;
+  color: #FFFFFF;
+}
+
+.primaryButton {
+  background-color: #ED1C24;
+}
+
+.secondaryButton {
+  background-color: #FA992A;
+}
